@@ -124,13 +124,6 @@ class Field {
   
 }
 
-// const myField = new Field([
-//   ['*', 'O', 'O'],
-//   ['░', 'O', '░'],
-//   ['░', '^', '░'],
-// ]);
-
-// myField.game();
 
 const myField = new Field(Field.generateField(4, 4, 4));
 myField.game();
